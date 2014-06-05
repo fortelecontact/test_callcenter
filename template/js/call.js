@@ -79,6 +79,9 @@ function sendReq(next,multipleValues,cid,realstatus){
 			  status = vals.status;
 			  $('#appendHere').append("<td id='cid'>"+vals.contactId+"</td><td>"+vals.phone+"</td><td><input type='text' id='status' value='"+vals.status+"' /></td>");
 	  }
+  })
+    .fail(function() {
+    	alert( "В данный момент не удалось получить номер. Проверьте ваше подключение к интернету и попробуйте снова." );
   });
 }
 
