@@ -1,8 +1,7 @@
 test_callcenter
 ===============
 
-<h4>Демо: http://call.denis.by</h4><br>
-<br>
+<h4>Демо: http://call.denis.by</h4>
 <b>Установка:</b><br>
 1. enigne/data/config.php - правим доступ к бд. И устанавливаем интервал до автоматической разблокировки.<br>
 2. install.php<br>
